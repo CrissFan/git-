@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.main,menu);
+        /*此处添加注释，进行git控制
+        * 通过status即可查看此处的修改变化内容*/
         return true;
     }
     public boolean onOptionsItemSelected(MenuItem item){
